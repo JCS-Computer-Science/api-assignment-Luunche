@@ -1,0 +1,42 @@
+body {
+    background: darkgrey;
+}
+button {
+    width: 150px;
+    height: 75px;
+    border: 3px solid black;
+    border-radius: 50px;
+    background: lightcyan;
+    cursor: pointer;
+    outline: none;
+}
+#press {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 52px;
+    background-color: palegoldenrod;
+    border: 10px solid white;
+    border-radius: 100px;
+    text-align: center;
+}
+#joke {
+    position: relative;
+    top: 24%;
+    text-align: center;
+}
+#punchline {
+    position: relative;
+    top: 35%;
+    text-align: center;
+}
+#buttons {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: -1%
+ 
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
